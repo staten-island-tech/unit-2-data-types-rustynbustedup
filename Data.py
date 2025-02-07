@@ -16,17 +16,25 @@ y= x.split( )
 z = y[0]
 print(y)
 print(z) """
-
-def sentence():
+#word counter
+""" def sentence():
     answer = input ("pease emter semtanse: ")
     words = answer.split()
     hello = len(words)
     print(hello)
     for word in words:
         print(word)
-sentence()
+sentence() """
+#day of the week calculator 
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
 
-
+#odd or even numbers
+def even (number):
+    if number 
 
 
 
