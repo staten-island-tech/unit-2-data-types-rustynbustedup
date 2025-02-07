@@ -18,13 +18,15 @@ print(y)
 print(z) """
 
 def sentence():
-    answer = input ("pease emter semtanse")
-    def count_words(sentence)
+    answer = input ("pease emter semtanse: ")
     words = answer.split()
     hello = len(words)
-    int(hello)
-    for words in words:
+    print(hello)
+    for word in words:
         print(word)
-sentance()
+sentence()
+
+
+
 
 
