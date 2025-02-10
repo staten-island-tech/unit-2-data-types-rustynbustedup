@@ -32,9 +32,14 @@ if day_of_week == "Friday":
 else:
     print("incorrect") """
 
-#odd or even numbers
+values = [1,2.23,5,7,2,30,15]
+print(values)
+for i in values:
+    print(i)
+
+""" #odd or even numbers
 def even (number):
-    if number 
+    if number  """
 
 
 
