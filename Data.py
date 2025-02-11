@@ -66,4 +66,4 @@ tip(service_input)  """
 #Factor calculator 
 def "find_factor"():
     factors1 = []
-    factors2 = []
+n = int(input("pease empta numba:)")
