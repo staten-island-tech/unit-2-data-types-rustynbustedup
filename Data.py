@@ -32,16 +32,38 @@ if day_of_week == "Friday":
 else:
     print("incorrect") """
 
-values = [1,2.23,5,7,2,30,15]
+""" values = [1,2.23,5,7,2,30,15]
 print(values)
 for i in values:
-    print(i)
+    print(i) """
 
 """ #odd or even numbers
-def even (number):
-    if number  """
+def even(number):
+    if number % 2 == 0:
+        print("even")
+    else:
+        print("odd")
 
+number = int(input("Pease emter a numba: "))
+even(number) """
 
+""" #Tip calculator
+def tip(service):
+    if service == "Great":
+        tip = "25%"
+    elif service == "Good":
+        tip = "20%"
+    elif service == "Okay":
+        tip = "15%"
+    elif service == "Bad":
+        tip = "0%"
+    else:
+        tip = "IS IT GREAT GOOD OKAY OR BAD"
+    print(f"Suggested tip: {tip}")
+service_input = input("How was the service (Great, Okay, Good, Bad)?")
+tip(service_input)  """
 
-
-
+#Factor calculator 
+def "find_factor"():
+    factors1 = []
+    factors2 = []
