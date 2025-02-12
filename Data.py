@@ -64,6 +64,16 @@ service_input = input("How was the service (Great, Okay, Good, Bad)?")
 tip(service_input)  """
 
 #Factor calculator 
+""" def find_factors(number):
+    factors = []
+    for i in range(1, number + 1):
+        if number % i == 0:
+            factors.append(i)
+    return factors
+factor = int(input("Please enter a number: ")) 
+print(f"Factors of {factor}: {find_factors(factor)}") """
+
+#GCF Calculator 
 def find_factors(number):
     factors = []
     for i in range(1, number + 1):
@@ -72,4 +82,3 @@ def find_factors(number):
     return factors
 factor = int(input("Please enter a number: ")) 
 print(f"Factors of {factor}: {find_factors(factor)}")
-
