@@ -67,3 +67,10 @@ tip(service_input)  """
 def "find_factor"():
     factors1 = []
 n = int(input("pease empta numba:)")
+        
+
+
+
+
+
+#This is a test to see if it works at home
