@@ -74,11 +74,16 @@ factor = int(input("Please enter a number: "))
 print(f"Factors of {factor}: {find_factors(factor)}") """
 
 #GCF Calculator 
-def find_factors(number):
+""" def find_factors(number):
     factors = []
     for i in range(1, number + 1):
         if number % i == 0:
             factors.append(i)
     return factors
-factor = int(input("Please enter a number: ")) 
-print(f"Factors of {factor}: {find_factors(factor)}")
+num1 = int(input("pease emter firsp numba:"))
+num2 = int(input("pease empter sepond numba:"))
+factor1 = find_factors (num1)
+factor2 = find_factors (num2) 
+common_factors = list(set(factor1) and set(factor2))
+GCF = max (common_factors)
+print ("da GCF is", GCF)  """
