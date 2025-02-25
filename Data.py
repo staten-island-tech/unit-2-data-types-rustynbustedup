@@ -87,3 +87,7 @@ factor2 = find_factors (num2)
 common_factors = list(set(factor1) and set(factor2))
 GCF = max (common_factors)
 print ("da GCF is", GCF)  """
+
+
+
+

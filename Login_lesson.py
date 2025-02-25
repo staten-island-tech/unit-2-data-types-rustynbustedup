@@ -38,3 +38,34 @@ def gamble(age, id):
 
 
 
+#Lesson 2/25/25
+x = True 
+y = True
+
+def GCF():
+    if x == True and y == True 
+    print("true")
+#inefficien
+
+
+def vote(age, id)
+    if age <18 or id == False:
+        print("cannot vote")
+    elif age >18 and id == True:
+        print("vote")
+
+
+def skins(money, age, isAvialable"):
+    if money <10 or age <18 or isAvailable ==False:
+        return ("cannot buy")
+def skins2 (money, cost, isAvialable")
+    if isAvailable == True:
+        if money >10 or cost ==0:
+            print("Go off Queen")
+        else:
+            print("janet Broke Gurl")
+
+
+def skins3 (money, age, isAvialable"):
+    if isAvailable == False or age <18:
+        print("nope")
