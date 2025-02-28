@@ -74,19 +74,19 @@ factor = int(input("Please enter a number: "))
 print(f"Factors of {factor}: {find_factors(factor)}") """
 
 #GCF Calculator 
-""" def find_factors(number):
-    factors = []
+def find_factors(number):       
+    factors = [] #defines the lits
     for i in range(1, number + 1):
-        if number % i == 0:
+        if number % i == 0: # finds the number that has a remainder of 0 in the list 
             factors.append(i)
     return factors
-num1 = int(input("pease emter firsp numba:"))
+num1 = int(input("pease emter firsp numba:")) # make a input from the person for the first numeber
 num2 = int(input("pease empter sepond numba:"))
-factor1 = find_factors (num1)
+factor1 = find_factors (num1) #finds the number from the first number 
 factor2 = find_factors (num2) 
 common_factors = list(set(factor1) and set(factor2))
 GCF = max (common_factors)
-print ("da GCF is", GCF)  """
+print ("da GCF is", GCF) 
 
 
 
